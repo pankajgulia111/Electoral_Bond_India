@@ -11,7 +11,10 @@ The JSON data provided here includes:
 - Date of Purchase
 - Purchaser Name
 - Denomination
-- Other relevant details
+
+- Date of Encashment
+- Name of the Political Party
+- Denomination
 
 ## Data Format
 
@@ -27,7 +30,7 @@ The data is stored in a JSON file with an array of records. Each record has the 
 ```json
 {
   "Date of Encashment": "DD/MM/YYYY",
-  "Name of the Political Party": "Name of the Purchaser",
+  "Name of the Political Party": "Name of the Political Party",
   "Denomination": Amount
 }
 ```
